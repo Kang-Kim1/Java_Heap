@@ -1,6 +1,10 @@
 # Data Structure - Heap
 * 완전 이진 트리(Complete Binary Tree) 형태의 자료구조로 최대, 최소값을 빠르가 찾기 위해 사용
   * 노드 insert 시, 최하단 노드의 왼쪽 자식 부터 차례대로 삽입
+  * 부모, 자식 노드 Index :
+    * 부모 노드 : index / 2
+    * 왼쪽 자식 노드 : index * 2;
+    * 오른쪽 자식 노드 : index * 2 + 1
 * 데이터 입력 > 최대&최소 값 검색 시의 시간 복잡도
   * 배열 : O(n) / <b>Heap : O(log n)</b>
 * PriorityQueue에 사용되는 자료구조
